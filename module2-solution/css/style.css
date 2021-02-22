@@ -8,18 +8,18 @@
 
 h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 div{
-  position: static;
-  height: 150px;
+  height: 160px;
   margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
 }
  
 #chickenbeefback {
-  background-color: #A9A9A9;
-  width: 93%;
+  background-color: #A9A9A9;  
   font-weight: bold;
   text-align: left;
   border: 3px solid black;
@@ -27,18 +27,20 @@ div{
 
 #sushiback {
   background-color: #A9A9A9;
-  width: 93%;
   font-weight: bold;
   text-align: left;
   border: 3px solid black;
 }
 
 p{
+  position: relative;
+  left: 13px;
+  bottom: 13px;
   height: 25px;
   width: 100px;
   font-weight: bold;
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 0px;
   margin: 0px;
   float: right;
@@ -46,15 +48,18 @@ p{
 
 #chicken {
   background-color: #F08080;
+  font-weight: bold;
 }
 
 #beef {
   background-color: #B22222;
+  font-weight: bold;
   color: white;
 }
 
 #sushi{
   background-color: #FFFFE0;
+  font-weight: bold;
 }
 
 
